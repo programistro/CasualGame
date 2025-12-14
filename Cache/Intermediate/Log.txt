@@ -1,0 +1,236 @@
+[00:00:032] Flax.Build 1.0.0
+[00:00:034]   Arguments: log -mutex -genproject
+[00:00:034]   Workspace: /home/katana/Projects/Flax/CasualGame
+[00:00:034]   Engine: /home/katana/.local/share/SeedLauncher/Versions/1.11
+[00:00:034]   .NET 10.0.0
+[00:00:040] Loading project file from "/home/katana/Projects/Flax/CasualGame/CasualGame.flaxproj"...
+[00:00:103] Loading project file from "/home/katana/.local/share/SeedLauncher/Versions/1.11/Flax.flaxproj"...
+[00:00:106] Loaded project Flax, version 1.11.6802
+[00:00:106] Loaded project CasualGame, version 1.0
+[00:00:137] Engine build version: 1.11.6802
+[00:00:168] Generating project files...
+[00:00:199] Missing Android SDK. Cannot build for Android platform.
+[00:00:211] which clang++-17 exit code: 1, result: 
+[00:00:216] which clang++-16 exit code: 1, result: 
+[00:00:220] which clang++-15 exit code: 1, result: 
+[00:00:224] which clang++-14 exit code: 1, result: 
+[00:00:232] which clang++-13 exit code: 1, result: 
+[00:00:236] which clang++-12 exit code: 1, result: 
+[00:00:241] which clang++-11 exit code: 1, result: 
+[00:00:244] which clang++-10 exit code: 1, result: 
+[00:00:247] which clang++-9 exit code: 1, result: 
+[00:00:250] which clang++-8 exit code: 1, result: 
+[00:00:254] which clang++-7 exit code: 1, result: 
+[00:00:257] which clang++-6 exit code: 1, result: 
+[00:00:260] which clang++ exit code: 0, result: /usr/bin/clang++
+[00:00:260] Using native Linux toolchain (compiler clang++)
+[00:00:287] Found target GameEditorTarget
+[00:00:287] Found target GameTarget
+[00:00:287] Found target FlaxGame
+[00:00:287] Found target FlaxEditor
+[00:00:288] Found project Flax
+[00:00:296] Skipping configuration Game.Windows.Debug for x64: Missing platform SDK
+[00:00:296] Skipping configuration Game.Windows.Debug for x86: Missing platform SDK
+[00:00:296] Skipping configuration Game.Windows.Debug for ARM64: Missing platform SDK
+[00:00:296] Skipping configuration Game.Windows.Development for x64: Missing platform SDK
+[00:00:296] Skipping configuration Game.Windows.Development for x86: Missing platform SDK
+[00:00:296] Skipping configuration Game.Windows.Development for ARM64: Missing platform SDK
+[00:00:296] Skipping configuration Game.Windows.Release for x64: Missing platform SDK
+[00:00:296] Skipping configuration Game.Windows.Release for x86: Missing platform SDK
+[00:00:296] Skipping configuration Game.Windows.Release for ARM64: Missing platform SDK
+[00:00:305] which clang++ exit code: 0, result: /usr/bin/clang++
+[00:00:309] which ar exit code: 0, result: /usr/bin/ar
+[00:00:313] which llvm-ar exit code: 0, result: /usr/bin/llvm-ar
+[00:00:317] which ranlib exit code: 0, result: /usr/bin/ranlib
+[00:00:321] which strip exit code: 0, result: /usr/bin/strip
+[00:00:323] which objcopy exit code: 0, result: /usr/bin/objcopy
+[00:00:326] which ld.lld exit code: 0, result: /usr/bin/ld.lld
+[00:00:422] Found VulkanSDK at: /usr/include
+[00:00:733] Found the following .NET SDK versions: 10.0.100
+[00:00:733] Found the following .NET runtime versions: 10.0.0
+[00:00:736] Using .NET SDK 10.0.100, runtime 10.0.0 (/home/katana/.dotnet)
+[00:00:739]   - Host Runtime for Linux x64
+[00:00:761] Skipping configuration Game.Android.Debug for ARM64: Missing platform SDK
+[00:00:761] Skipping configuration Game.Android.Development for ARM64: Missing platform SDK
+[00:00:761] Skipping configuration Game.Android.Release for ARM64: Missing platform SDK
+[00:00:761] Skipping configuration Game.Mac.Debug for x64: Missing platform SDK
+[00:00:761] Skipping configuration Game.Mac.Debug for ARM64: Missing platform SDK
+[00:00:761] Skipping configuration Game.Mac.Development for x64: Missing platform SDK
+[00:00:761] Skipping configuration Game.Mac.Development for ARM64: Missing platform SDK
+[00:00:761] Skipping configuration Game.Mac.Release for x64: Missing platform SDK
+[00:00:761] Skipping configuration Game.Mac.Release for ARM64: Missing platform SDK
+[00:00:761] Skipping configuration Game.iOS.Debug for ARM64: Missing platform SDK
+[00:00:761] Skipping configuration Game.iOS.Development for ARM64: Missing platform SDK
+[00:00:761] Skipping configuration Game.iOS.Release for ARM64: Missing platform SDK
+[00:00:761] Skipping configuration Editor.Windows.Debug for x64: Missing platform SDK
+[00:00:761] Skipping configuration Editor.Windows.Debug for ARM64: Missing platform SDK
+[00:00:761] Skipping configuration Editor.Windows.Development for x64: Missing platform SDK
+[00:00:761] Skipping configuration Editor.Windows.Development for ARM64: Missing platform SDK
+[00:00:761] Skipping configuration Editor.Windows.Release for x64: Missing platform SDK
+[00:00:761] Skipping configuration Editor.Windows.Release for ARM64: Missing platform SDK
+[00:00:782] Using Dotnet runtime versions range 10-10 for Game Cooker
+[00:00:785] Using Dotnet runtime versions range 10-10 for Game Cooker
+[00:00:789] Using Dotnet runtime versions range 10-10 for Game Cooker
+[00:00:791] Using Dotnet runtime versions range 10-10 for Game Cooker
+[00:00:796] Using Dotnet runtime versions range 10-10 for Game Cooker
+[00:00:797] Using Dotnet runtime versions range 10-10 for Game Cooker
+[00:00:797] Skipping configuration Editor.Mac.Debug for x64: Missing platform SDK
+[00:00:797] Skipping configuration Editor.Mac.Debug for ARM64: Missing platform SDK
+[00:00:797] Skipping configuration Editor.Mac.Development for x64: Missing platform SDK
+[00:00:797] Skipping configuration Editor.Mac.Development for ARM64: Missing platform SDK
+[00:00:797] Skipping configuration Editor.Mac.Release for x64: Missing platform SDK
+[00:00:797] Skipping configuration Editor.Mac.Release for ARM64: Missing platform SDK
+[00:00:803] Skipping prebuilt module FlaxEngine
+[00:00:803] Found project CasualGame
+[00:00:804] Skipping configuration Editor.Windows.Debug for x64: Missing platform SDK
+[00:00:804] Skipping configuration Editor.Windows.Debug for ARM64: Missing platform SDK
+[00:00:804] Skipping configuration Editor.Windows.Development for x64: Missing platform SDK
+[00:00:804] Skipping configuration Editor.Windows.Development for ARM64: Missing platform SDK
+[00:00:804] Skipping configuration Editor.Windows.Release for x64: Missing platform SDK
+[00:00:804] Skipping configuration Editor.Windows.Release for ARM64: Missing platform SDK
+[00:00:822] Skipping configuration Editor.Mac.Debug for x64: Missing platform SDK
+[00:00:822] Skipping configuration Editor.Mac.Debug for ARM64: Missing platform SDK
+[00:00:822] Skipping configuration Editor.Mac.Development for x64: Missing platform SDK
+[00:00:822] Skipping configuration Editor.Mac.Development for ARM64: Missing platform SDK
+[00:00:822] Skipping configuration Editor.Mac.Release for x64: Missing platform SDK
+[00:00:822] Skipping configuration Editor.Mac.Release for ARM64: Missing platform SDK
+[00:00:822] Skipping configuration Game.Windows.Debug for x64: Missing platform SDK
+[00:00:822] Skipping configuration Game.Windows.Debug for x86: Missing platform SDK
+[00:00:822] Skipping configuration Game.Windows.Debug for ARM64: Missing platform SDK
+[00:00:822] Skipping configuration Game.Windows.Development for x64: Missing platform SDK
+[00:00:822] Skipping configuration Game.Windows.Development for x86: Missing platform SDK
+[00:00:822] Skipping configuration Game.Windows.Development for ARM64: Missing platform SDK
+[00:00:822] Skipping configuration Game.Windows.Release for x64: Missing platform SDK
+[00:00:822] Skipping configuration Game.Windows.Release for x86: Missing platform SDK
+[00:00:822] Skipping configuration Game.Windows.Release for ARM64: Missing platform SDK
+[00:00:853] Skipping configuration Game.Android.Debug for ARM64: Missing platform SDK
+[00:00:853] Skipping configuration Game.Android.Development for ARM64: Missing platform SDK
+[00:00:853] Skipping configuration Game.Android.Release for ARM64: Missing platform SDK
+[00:00:853] Skipping configuration Game.Mac.Debug for x64: Missing platform SDK
+[00:00:853] Skipping configuration Game.Mac.Debug for ARM64: Missing platform SDK
+[00:00:853] Skipping configuration Game.Mac.Development for x64: Missing platform SDK
+[00:00:853] Skipping configuration Game.Mac.Development for ARM64: Missing platform SDK
+[00:00:853] Skipping configuration Game.Mac.Release for x64: Missing platform SDK
+[00:00:853] Skipping configuration Game.Mac.Release for ARM64: Missing platform SDK
+[00:00:853] Skipping configuration Game.iOS.Debug for ARM64: Missing platform SDK
+[00:00:853] Skipping configuration Game.iOS.Development for ARM64: Missing platform SDK
+[00:00:853] Skipping configuration Game.iOS.Release for ARM64: Missing platform SDK
+[00:00:863] Using Dotnet runtime versions range 10-10 for Game Cooker
+[00:00:872] Using Dotnet runtime versions range 10-10 for Game Cooker
+[00:00:887] Using Dotnet runtime versions range 10-10 for Game Cooker
+[00:00:897] Using Dotnet runtime versions range 10-10 for Game Cooker
+[00:00:906] Using Dotnet runtime versions range 10-10 for Game Cooker
+[00:00:917] Using Dotnet runtime versions range 10-10 for Game Cooker
+[00:00:922] Project Game -> /home/katana/Projects/Flax/CasualGame/Source/Game.
+[00:00:925] which clang++ exit code: 0, result: /usr/bin/clang++
+[00:00:928] which ar exit code: 0, result: /usr/bin/ar
+[00:00:932] which llvm-ar exit code: 0, result: /usr/bin/llvm-ar
+[00:00:937] which ranlib exit code: 0, result: /usr/bin/ranlib
+[00:00:941] which strip exit code: 0, result: /usr/bin/strip
+[00:00:944] which objcopy exit code: 0, result: /usr/bin/objcopy
+[00:00:946] which ld.lld exit code: 0, result: /usr/bin/ld.lld
+[00:00:989] Project BuildScripts -> /home/katana/Projects/Flax/CasualGame/Cache/Projects/BuildScripts.
+[00:00:989] Solution -> /home/katana/Projects/Flax/CasualGame/CasualGame.
+[00:01:009] Skipped saving file to /home/katana/Projects/Flax/CasualGame/.vscode/tasks.json
+[00:01:010] Skipped saving file to /home/katana/Projects/Flax/CasualGame/.vscode/launch.json
+[00:01:019] Skipped saving file to /home/katana/Projects/Flax/CasualGame/.vscode/c_cpp_properties.json
+[00:01:019] Skipped saving file to /home/katana/Projects/Flax/CasualGame/.vscode/settings.json
+[00:01:020] Skipped saving file to /home/katana/Projects/Flax/CasualGame/CasualGame.code-workspace
+[00:01:020] Skipped saving file to /home/katana/Projects/Flax/CasualGame/.vscode/extensions.json
+[00:01:020] Skipped saving file to /home/katana/Projects/Flax/CasualGame/omnisharp.json
+[00:01:020] Found target GameEditorTarget
+[00:01:020] Found target GameTarget
+[00:01:020] Found target FlaxGame
+[00:01:020] Found target FlaxEditor
+[00:01:020] Found project Flax
+[00:01:021] Skipping configuration Game.Windows.Debug for x64: Missing platform SDK
+[00:01:021] Skipping configuration Game.Windows.Debug for x86: Missing platform SDK
+[00:01:021] Skipping configuration Game.Windows.Debug for ARM64: Missing platform SDK
+[00:01:021] Skipping configuration Game.Windows.Development for x64: Missing platform SDK
+[00:01:021] Skipping configuration Game.Windows.Development for x86: Missing platform SDK
+[00:01:021] Skipping configuration Game.Windows.Development for ARM64: Missing platform SDK
+[00:01:021] Skipping configuration Game.Windows.Release for x64: Missing platform SDK
+[00:01:021] Skipping configuration Game.Windows.Release for x86: Missing platform SDK
+[00:01:021] Skipping configuration Game.Windows.Release for ARM64: Missing platform SDK
+[00:01:031] Skipping configuration Game.Android.Debug for ARM64: Missing platform SDK
+[00:01:031] Skipping configuration Game.Android.Development for ARM64: Missing platform SDK
+[00:01:031] Skipping configuration Game.Android.Release for ARM64: Missing platform SDK
+[00:01:031] Skipping configuration Game.Mac.Debug for x64: Missing platform SDK
+[00:01:031] Skipping configuration Game.Mac.Debug for ARM64: Missing platform SDK
+[00:01:031] Skipping configuration Game.Mac.Development for x64: Missing platform SDK
+[00:01:031] Skipping configuration Game.Mac.Development for ARM64: Missing platform SDK
+[00:01:031] Skipping configuration Game.Mac.Release for x64: Missing platform SDK
+[00:01:031] Skipping configuration Game.Mac.Release for ARM64: Missing platform SDK
+[00:01:031] Skipping configuration Game.iOS.Debug for ARM64: Missing platform SDK
+[00:01:031] Skipping configuration Game.iOS.Development for ARM64: Missing platform SDK
+[00:01:031] Skipping configuration Game.iOS.Release for ARM64: Missing platform SDK
+[00:01:031] Skipping configuration Editor.Windows.Debug for x64: Missing platform SDK
+[00:01:031] Skipping configuration Editor.Windows.Debug for ARM64: Missing platform SDK
+[00:01:031] Skipping configuration Editor.Windows.Development for x64: Missing platform SDK
+[00:01:031] Skipping configuration Editor.Windows.Development for ARM64: Missing platform SDK
+[00:01:031] Skipping configuration Editor.Windows.Release for x64: Missing platform SDK
+[00:01:031] Skipping configuration Editor.Windows.Release for ARM64: Missing platform SDK
+[00:01:044] Using Dotnet runtime versions range 10-10 for Game Cooker
+[00:01:046] Using Dotnet runtime versions range 10-10 for Game Cooker
+[00:01:052] Using Dotnet runtime versions range 10-10 for Game Cooker
+[00:01:054] Using Dotnet runtime versions range 10-10 for Game Cooker
+[00:01:060] Using Dotnet runtime versions range 10-10 for Game Cooker
+[00:01:061] Using Dotnet runtime versions range 10-10 for Game Cooker
+[00:01:061] Skipping configuration Editor.Mac.Debug for x64: Missing platform SDK
+[00:01:062] Skipping configuration Editor.Mac.Debug for ARM64: Missing platform SDK
+[00:01:062] Skipping configuration Editor.Mac.Development for x64: Missing platform SDK
+[00:01:062] Skipping configuration Editor.Mac.Development for ARM64: Missing platform SDK
+[00:01:062] Skipping configuration Editor.Mac.Release for x64: Missing platform SDK
+[00:01:062] Skipping configuration Editor.Mac.Release for ARM64: Missing platform SDK
+[00:01:062] Skipping prebuilt module FlaxEngine
+[00:01:062] Found project CasualGame
+[00:01:062] Skipping configuration Editor.Windows.Debug for x64: Missing platform SDK
+[00:01:062] Skipping configuration Editor.Windows.Debug for ARM64: Missing platform SDK
+[00:01:062] Skipping configuration Editor.Windows.Development for x64: Missing platform SDK
+[00:01:062] Skipping configuration Editor.Windows.Development for ARM64: Missing platform SDK
+[00:01:062] Skipping configuration Editor.Windows.Release for x64: Missing platform SDK
+[00:01:062] Skipping configuration Editor.Windows.Release for ARM64: Missing platform SDK
+[00:01:095] Skipping configuration Editor.Mac.Debug for x64: Missing platform SDK
+[00:01:095] Skipping configuration Editor.Mac.Debug for ARM64: Missing platform SDK
+[00:01:095] Skipping configuration Editor.Mac.Development for x64: Missing platform SDK
+[00:01:095] Skipping configuration Editor.Mac.Development for ARM64: Missing platform SDK
+[00:01:095] Skipping configuration Editor.Mac.Release for x64: Missing platform SDK
+[00:01:095] Skipping configuration Editor.Mac.Release for ARM64: Missing platform SDK
+[00:01:095] Skipping configuration Game.Windows.Debug for x64: Missing platform SDK
+[00:01:095] Skipping configuration Game.Windows.Debug for x86: Missing platform SDK
+[00:01:095] Skipping configuration Game.Windows.Debug for ARM64: Missing platform SDK
+[00:01:095] Skipping configuration Game.Windows.Development for x64: Missing platform SDK
+[00:01:095] Skipping configuration Game.Windows.Development for x86: Missing platform SDK
+[00:01:095] Skipping configuration Game.Windows.Development for ARM64: Missing platform SDK
+[00:01:095] Skipping configuration Game.Windows.Release for x64: Missing platform SDK
+[00:01:095] Skipping configuration Game.Windows.Release for x86: Missing platform SDK
+[00:01:095] Skipping configuration Game.Windows.Release for ARM64: Missing platform SDK
+[00:01:113] Skipping configuration Game.Android.Debug for ARM64: Missing platform SDK
+[00:01:113] Skipping configuration Game.Android.Development for ARM64: Missing platform SDK
+[00:01:113] Skipping configuration Game.Android.Release for ARM64: Missing platform SDK
+[00:01:113] Skipping configuration Game.Mac.Debug for x64: Missing platform SDK
+[00:01:113] Skipping configuration Game.Mac.Debug for ARM64: Missing platform SDK
+[00:01:113] Skipping configuration Game.Mac.Development for x64: Missing platform SDK
+[00:01:113] Skipping configuration Game.Mac.Development for ARM64: Missing platform SDK
+[00:01:113] Skipping configuration Game.Mac.Release for x64: Missing platform SDK
+[00:01:113] Skipping configuration Game.Mac.Release for ARM64: Missing platform SDK
+[00:01:113] Skipping configuration Game.iOS.Debug for ARM64: Missing platform SDK
+[00:01:113] Skipping configuration Game.iOS.Development for ARM64: Missing platform SDK
+[00:01:113] Skipping configuration Game.iOS.Release for ARM64: Missing platform SDK
+[00:01:120] Using Dotnet runtime versions range 10-10 for Game Cooker
+[00:01:135] Using Dotnet runtime versions range 10-10 for Game Cooker
+[00:01:144] Using Dotnet runtime versions range 10-10 for Game Cooker
+[00:01:153] Using Dotnet runtime versions range 10-10 for Game Cooker
+[00:01:163] Using Dotnet runtime versions range 10-10 for Game Cooker
+[00:01:174] Using Dotnet runtime versions range 10-10 for Game Cooker
+[00:01:177] Project Game -> /home/katana/Projects/Flax/CasualGame/Source/Game.csproj
+[00:01:198] Saved file to /home/katana/Projects/Flax/CasualGame/Source/Game.csproj
+[00:01:199] Project BuildScripts -> /home/katana/Projects/Flax/CasualGame/Cache/Projects/BuildScripts.csproj
+[00:01:201] Skipped saving file to /home/katana/Projects/Flax/CasualGame/Cache/Projects/BuildScripts.csproj
+[00:01:201] Solution -> /home/katana/Projects/Flax/CasualGame/CasualGame.sln
+[00:01:226] Skipped saving file to /home/katana/Projects/Flax/CasualGame/CasualGame.sln
+[00:01:226] Skipped saving file to /home/katana/Projects/Flax/CasualGame/CasualGame.sln.DotSettings.user
+[00:01:226] Skipped saving file to /home/katana/Projects/Flax/CasualGame/Cache/Projects/Flax.Build.CSharp.SkipBuild.targets
+[00:01:227] Skipped saving file to /home/katana/Projects/Flax/CasualGame/Cache/Projects/Flax.Build.CSharp.targets
+[00:01:228] Total time: 00:00:01.2518339
+[00:01:228] End.

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Game.CSharp</name>
+    </assembly>
+    <members>
+        <member name="T:Game.Player">
+            <summary>
+            Player Script.
+            </summary>
+        </member>
+        <member name="M:Game.Player.OnStart">
+            <inheritdoc/>
+        </member>
+        <member name="M:Game.Player.OnEnable">
+            <inheritdoc/>
+        </member>
+        <member name="M:Game.Player.OnDisable">
+            <inheritdoc/>
+        </member>
+        <member name="M:Game.Player.OnUpdate">
+            <inheritdoc/>
+        </member>
+    </members>
+</doc>

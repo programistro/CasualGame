@@ -1,0 +1,11 @@
+﻿{
+  "profiles": {
+    "Game": {
+      "commandName": "Executable",
+      "workingDirectory": "/home/katana/Projects/Flax/CasualGame",
+      "executablePath": "/home/katana/.local/share/SeedLauncher/Versions/1.11/Binaries/Editor/Linux/Development/FlaxEditor",
+      "commandLineArgs": "-project \"/home/katana/Projects/Flax/CasualGame\"",
+      "nativeDebugging": false
+    }
+  }
+}

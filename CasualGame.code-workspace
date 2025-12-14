@@ -1,0 +1,21 @@
+{
+	"settings": {
+		"typescript.tsc.autoDetect": "off",
+		"npm.autoDetect": "off",
+		"gulp.autoDetect": "off",
+		"jake.autoDetect": "off",
+		"grunt.autoDetect": "off",
+		"omnisharp.defaultLaunchSolution": "CasualGame.sln",
+		"omnisharp.useModernNet": true
+	},
+	"folders": [
+		{
+			"name": "CasualGame",
+			"path": "."
+		},
+		{
+			"name": "Flax",
+			"path": "/home/katana/.local/share/SeedLauncher/Versions/1.11"
+		}
+	]
+}

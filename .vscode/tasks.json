@@ -1,0 +1,137 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "CasualGame|Editor.Linux.Debug|x64",
+			"group": {
+				"kind": "build",
+				"isDefault": false
+			},
+			"command": "../../../.local/share/SeedLauncher/Versions/1.11/Binaries/Tools/Flax.Build",
+			"args": [
+				"--build",
+				"--log",
+				"--mutex",
+				"--workspace=\\\"/home/katana/Projects/Flax/CasualGame\\\"",
+				"--arch=x64",
+				"--configuration=Debug",
+				"--platform=Linux",
+				"--buildTargets=GameEditorTarget"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/katana/Projects/Flax/CasualGame"
+			}
+		},
+		{
+			"label": "CasualGame|Editor.Linux.Development|x64",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"command": "../../../.local/share/SeedLauncher/Versions/1.11/Binaries/Tools/Flax.Build",
+			"args": [
+				"--build",
+				"--log",
+				"--mutex",
+				"--workspace=\\\"/home/katana/Projects/Flax/CasualGame\\\"",
+				"--arch=x64",
+				"--configuration=Development",
+				"--platform=Linux",
+				"--buildTargets=GameEditorTarget"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/katana/Projects/Flax/CasualGame"
+			}
+		},
+		{
+			"label": "CasualGame|Editor.Linux.Release|x64",
+			"group": {
+				"kind": "build",
+				"isDefault": false
+			},
+			"command": "../../../.local/share/SeedLauncher/Versions/1.11/Binaries/Tools/Flax.Build",
+			"args": [
+				"--build",
+				"--log",
+				"--mutex",
+				"--workspace=\\\"/home/katana/Projects/Flax/CasualGame\\\"",
+				"--arch=x64",
+				"--configuration=Release",
+				"--platform=Linux",
+				"--buildTargets=GameEditorTarget"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/katana/Projects/Flax/CasualGame"
+			}
+		},
+		{
+			"label": "CasualGame|Game.Linux.Debug|x64",
+			"group": {
+				"kind": "build",
+				"isDefault": false
+			},
+			"command": "../../../.local/share/SeedLauncher/Versions/1.11/Binaries/Tools/Flax.Build",
+			"args": [
+				"--build",
+				"--log",
+				"--mutex",
+				"--workspace=\\\"/home/katana/Projects/Flax/CasualGame\\\"",
+				"--arch=x64",
+				"--configuration=Debug",
+				"--platform=Linux",
+				"--buildTargets=GameTarget"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/katana/Projects/Flax/CasualGame"
+			}
+		},
+		{
+			"label": "CasualGame|Game.Linux.Development|x64",
+			"group": {
+				"kind": "build",
+				"isDefault": false
+			},
+			"command": "../../../.local/share/SeedLauncher/Versions/1.11/Binaries/Tools/Flax.Build",
+			"args": [
+				"--build",
+				"--log",
+				"--mutex",
+				"--workspace=\\\"/home/katana/Projects/Flax/CasualGame\\\"",
+				"--arch=x64",
+				"--configuration=Development",
+				"--platform=Linux",
+				"--buildTargets=GameTarget"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/katana/Projects/Flax/CasualGame"
+			}
+		},
+		{
+			"label": "CasualGame|Game.Linux.Release|x64",
+			"group": {
+				"kind": "build",
+				"isDefault": false
+			},
+			"command": "../../../.local/share/SeedLauncher/Versions/1.11/Binaries/Tools/Flax.Build",
+			"args": [
+				"--build",
+				"--log",
+				"--mutex",
+				"--workspace=\\\"/home/katana/Projects/Flax/CasualGame\\\"",
+				"--arch=x64",
+				"--configuration=Release",
+				"--platform=Linux",
+				"--buildTargets=GameTarget"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/katana/Projects/Flax/CasualGame"
+			}
+		}
+	]
+}
