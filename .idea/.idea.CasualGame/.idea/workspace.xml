@@ -8,12 +8,52 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="137fe5e3-1de1-47cb-af8d-b47f3439fdf1" name="Changes" comment="" />
+    <list default="true" id="137fe5e3-1de1-47cb-af8d-b47f3439fdf1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CasualGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CasualGame/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binaries/GameEditorTarget/Linux/x64/Release/Game.CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Binaries/GameEditorTarget/Linux/x64/Release/Game.CSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binaries/GameEditorTarget/Linux/x64/Release/Game.CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Binaries/GameEditorTarget/Linux/x64/Release/Game.CSharp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binaries/GameEditorTarget/Linux/x64/Release/GameEditorTarget.Build.json" beforeDir="false" afterPath="$PROJECT_DIR$/Binaries/GameEditorTarget/Linux/x64/Release/GameEditorTarget.Build.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cache/AssetsCache.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Cache/AssetsCache.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cache/Intermediate/TaskGraph.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Cache/Intermediate/TaskGraph.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cache/ProjectCache.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Cache/ProjectCache.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cache/Projects/obj/BuildScripts.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Cache/Projects/obj/BuildScripts.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cache/Projects/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Cache/Projects/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cache/Projects/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Cache/Projects/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cache/Projects/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Cache/Projects/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cache/Projects/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Cache/Projects/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cache/VulkanPipeline.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Cache/VulkanPipeline.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cache/WindowsLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Cache/WindowsLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cache/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/Cache/icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/SceneData/Scene.scene" beforeDir="false" afterPath="$PROJECT_DIR$/Content/SceneData/Scene.scene" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/Log_2025_12_15_00_47_11.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/Log_2025_12_15_00_47_11.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Game/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Game/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/obj/Game.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Source/obj/Game.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Source/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Source/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Source/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Source/obj/rider.project.restore.info" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;programistro&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/programistro/CasualGame.git&quot;,
+    &quot;accountId&quot;: &quot;5f58b978-23cc-4034-8aa8-e34e841edf85&quot;
+  }
+}</component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -22,21 +62,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "last_opened_file_path": "/home/katana/Загрузки/archive-2025-08-19_20-19-44.zip",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.github.weisj.darkmode.DarkModeConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/katana/Загрузки/archive-2025-08-19_20-19-44.zip&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.github.weisj.darkmode.DarkModeConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.BuildScripts">
     <configuration name="BuildScripts" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Cache/Projects/BuildScripts.csproj" />
@@ -80,13 +123,15 @@
       <updated>1765705941573</updated>
       <workItem from="1765705946402" duration="296000" />
       <workItem from="1765747068906" duration="278000" />
-      <workItem from="1765748548045" duration="626000" />
+      <workItem from="1765748548045" duration="2266000" />
+      <workItem from="1765824025872" duration="22000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
@@ -108,13 +153,13 @@
         </breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Source/Game/Player.cs</url>
-          <line>62</line>
+          <line>72</line>
           <properties documentPath="$PROJECT_DIR$/Source/Game/Player.cs" containingFunctionPresentation="Method 'OnTriggerEnter'">
             <startOffsets>
-              <option value="1648" />
+              <option value="1860" />
             </startOffsets>
             <endOffsets>
-              <option value="1649" />
+              <option value="1861" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="4" />

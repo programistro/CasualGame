@@ -3,7 +3,6 @@
   "Platform": "Linux",
   "Architecture": "x64",
   "Configuration": "Release",
-  "HotReloadPostfix": ".HotReload.4",
   "BinaryModules": [
     {
       "Name": "Game",

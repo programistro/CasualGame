@@ -13,6 +13,9 @@ public class Player : Script
     public RigidBody RigidBody;
     public BoxCollider BoxCollider;
     public SceneReference SceneReference;
+
+    public bool IsVerical;
+    public bool IsHorizonral;
     
     /// <inheritdoc/>
     public override void OnStart()
@@ -41,21 +44,28 @@ public class Player : Script
     public override void OnFixedUpdate()
     {
         // Actor.Position += new Vector3(3, 0, 0);
-        if (Input.Keyboard.GetKey(KeyboardKeys.A))
+        if (IsHorizonral)
         {
-            RigidBody.LinearVelocity = Vector3.Left * 500;
+            if (Input.Keyboard.GetKey(KeyboardKeys.A))
+            {
+                RigidBody.LinearVelocity = Vector3.Left * 500;
+            }
+            if (Input.Keyboard.GetKey(KeyboardKeys.D))
+            {
+                RigidBody.LinearVelocity = Vector3.Right * 500;
+            }
         }
-        if (Input.Keyboard.GetKey(KeyboardKeys.D))
+
+        if (IsVerical)
         {
-            RigidBody.LinearVelocity = Vector3.Right * 500;
-        }
-        if (Input.Keyboard.GetKey(KeyboardKeys.W))
-        {
-            RigidBody.LinearVelocity = Vector3.Forward * 500;
-        }
-        if (Input.Keyboard.GetKey(KeyboardKeys.S))
-        {
-            RigidBody.LinearVelocity = Vector3.Backward * 500;
+            if (Input.Keyboard.GetKey(KeyboardKeys.W))
+            {
+                RigidBody.LinearVelocity = Vector3.Forward * 500;
+            }
+            if (Input.Keyboard.GetKey(KeyboardKeys.S))
+            {
+                RigidBody.LinearVelocity = Vector3.Backward * 500;
+            }
         }
     }
     
@@ -66,13 +76,5 @@ public class Player : Script
         {
             Level.ChangeSceneAsync(SceneReference);
         }
-        // if (other.HasTag(PlayerTag))
-        // {
-        //     Debug.Log("Player entered trigger");
-        // }
-        // else if (other.Tags.HasAny(EnemyTags))
-        // {
-        //     Debug.Log("Enemy entered trigger");
-        // }
     }
 }
