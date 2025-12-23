@@ -5,8 +5,8 @@
 		"gulp.autoDetect": "off",
 		"jake.autoDetect": "off",
 		"grunt.autoDetect": "off",
-		"omnisharp.defaultLaunchSolution": "CasualGame.sln",
-		"omnisharp.useModernNet": true
+		"omnisharp.useModernNet": true,
+		"dotnet.defaultSolution": "CasualGame.sln"
 	},
 	"folders": [
 		{

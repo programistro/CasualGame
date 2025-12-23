@@ -13,6 +13,7 @@ public class Player : Script
     public RigidBody RigidBody;
     public BoxCollider BoxCollider;
     public SceneReference SceneReference;
+    public SceneReference CurrentScene;
 
     public bool IsVerical;
     public bool IsHorizonral;
@@ -75,6 +76,11 @@ public class Player : Script
         if (other.Tag == "Finish")
         {
             Level.ChangeSceneAsync(SceneReference);
+        }
+
+        if (other.Tag == "End")
+        {
+            Level.ChangeSceneAsync(CurrentScene);
         }
     }
 }

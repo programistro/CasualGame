@@ -1,6 +1,15 @@
 <Project>
-  <!-- Custom Flax.Build scripts for C# projects. -->
+  <!-- Custom Flax.Build scripts for C# projects. Windows + Linux -->
   <Target Name="Build">
+    <!-- WINDOWS TARGETS -->
+    <Exec Command='"C:\Users\Katana\AppData\Local\SeedLauncher\Versions\1.11\Binaries\Tools\Flax.Build.exe" -log -mutex -workspace="C:\Projects\Flax\CasualGame" -arch=x64 -configuration=Debug -platform=Windows -buildTargets=GameEditorTarget -build' Condition="'$(Configuration)|$(Platform)'=='Editor.Windows.Debug|x64'"/>
+    <Exec Command='"C:\Users\Katana\AppData\Local\SeedLauncher\Versions\1.11\Binaries\Tools\Flax.Build.exe" -log -mutex -workspace="C:\Projects\Flax\CasualGame" -arch=x64 -configuration=Development -platform=Windows -buildTargets=GameEditorTarget -build' Condition="'$(Configuration)|$(Platform)'=='Editor.Windows.Development|x64'"/>
+    <Exec Command='"C:\Users\Katana\AppData\Local\SeedLauncher\Versions\1.11\Binaries\Tools\Flax.Build.exe" -log -mutex -workspace="C:\Projects\Flax\CasualGame" -arch=x64 -configuration=Release -platform=Windows -buildTargets=GameEditorTarget -build' Condition="'$(Configuration)|$(Platform)'=='Editor.Windows.Release|x64'"/>
+    <Exec Command='"C:\Users\Katana\AppData\Local\SeedLauncher\Versions\1.11\Binaries\Tools\Flax.Build.exe" -log -mutex -workspace="C:\Projects\Flax\CasualGame" -arch=x64 -configuration=Debug -platform=Windows -buildTargets=GameTarget -build' Condition="'$(Configuration)|$(Platform)'=='Game.Windows.Debug|x64'"/>
+    <Exec Command='"C:\Users\Katana\AppData\Local\SeedLauncher\Versions\1.11\Binaries\Tools\Flax.Build.exe" -log -mutex -workspace="C:\Projects\Flax\CasualGame" -arch=x64 -configuration=Development -platform=Windows -buildTargets=GameTarget -build' Condition="'$(Configuration)|$(Platform)'=='Game.Windows.Development|x64'"/>
+    <Exec Command='"C:\Users\Katana\AppData\Local\SeedLauncher\Versions\1.11\Binaries\Tools\Flax.Build.exe" -log -mutex -workspace="C:\Projects\Flax\CasualGame" -arch=x64 -configuration=Release -platform=Windows -buildTargets=GameTarget -build' Condition="'$(Configuration)|$(Platform)'=='Game.Windows.Release|x64'"/>
+
+    <!-- LINUX TARGETS (оригинальные) -->
     <Exec Command='"/home/katana/.local/share/SeedLauncher/Versions/1.11/Binaries/Tools/Flax.Build" -log -mutex -workspace="/home/katana/Projects/Flax/CasualGame" -arch=x64 -configuration=Debug -platform=Linux -buildTargets=GameEditorTarget -build' Condition="'$(Configuration)|$(Platform)'=='Editor.Linux.Debug|x64'"/>
     <Exec Command='"/home/katana/.local/share/SeedLauncher/Versions/1.11/Binaries/Tools/Flax.Build" -log -mutex -workspace="/home/katana/Projects/Flax/CasualGame" -arch=x64 -configuration=Development -platform=Linux -buildTargets=GameEditorTarget -build' Condition="'$(Configuration)|$(Platform)'=='Editor.Linux.Development|x64'"/>
     <Exec Command='"/home/katana/.local/share/SeedLauncher/Versions/1.11/Binaries/Tools/Flax.Build" -log -mutex -workspace="/home/katana/Projects/Flax/CasualGame" -arch=x64 -configuration=Release -platform=Linux -buildTargets=GameEditorTarget -build' Condition="'$(Configuration)|$(Platform)'=='Editor.Linux.Release|x64'"/>
@@ -8,20 +17,26 @@
     <Exec Command='"/home/katana/.local/share/SeedLauncher/Versions/1.11/Binaries/Tools/Flax.Build" -log -mutex -workspace="/home/katana/Projects/Flax/CasualGame" -arch=x64 -configuration=Development -platform=Linux -buildTargets=GameTarget -build' Condition="'$(Configuration)|$(Platform)'=='Game.Linux.Development|x64'"/>
     <Exec Command='"/home/katana/.local/share/SeedLauncher/Versions/1.11/Binaries/Tools/Flax.Build" -log -mutex -workspace="/home/katana/Projects/Flax/CasualGame" -arch=x64 -configuration=Release -platform=Linux -buildTargets=GameTarget -build' Condition="'$(Configuration)|$(Platform)'=='Game.Linux.Release|x64'"/>
   </Target>
+
   <Target Name="Rebuild">
+    <!-- WINDOWS -->
+    <Exec Command='"C:\Users\Katana\AppData\Local\SeedLauncher\Versions\1.11\Binaries\Tools\Flax.Build.exe" -log -mutex -workspace="C:\Projects\Flax\CasualGame" -arch=x64 -configuration=Debug -platform=Windows -buildTargets=GameEditorTarget -rebuild' Condition="'$(Configuration)|$(Platform)'=='Editor.Windows.Debug|x64'"/>
+    <Exec Command='"C:\Users\Katana\AppData\Local\SeedLauncher\Versions\1.11\Binaries\Tools\Flax.Build.exe" -log -mutex -workspace="C:\Projects\Flax\CasualGame" -arch=x64 -configuration=Development -platform=Windows -buildTargets=GameEditorTarget -rebuild' Condition="'$(Configuration)|$(Platform)'=='Editor.Windows.Development|x64'"/>
+    <Exec Command='"C:\Users\Katana\AppData\Local\SeedLauncher\Versions\1.11\Binaries\Tools\Flax.Build.exe" -log -mutex -workspace="C:\Projects\Flax\CasualGame" -arch=x64 -configuration=Release -platform=Windows -buildTargets=GameEditorTarget -rebuild' Condition="'$(Configuration)|$(Platform)'=='Editor.Windows.Release|x64'"/>
+
+    <!-- LINUX -->
     <Exec Command='"/home/katana/.local/share/SeedLauncher/Versions/1.11/Binaries/Tools/Flax.Build" -log -mutex -workspace="/home/katana/Projects/Flax/CasualGame" -arch=x64 -configuration=Debug -platform=Linux -buildTargets=GameEditorTarget -rebuild' Condition="'$(Configuration)|$(Platform)'=='Editor.Linux.Debug|x64'"/>
     <Exec Command='"/home/katana/.local/share/SeedLauncher/Versions/1.11/Binaries/Tools/Flax.Build" -log -mutex -workspace="/home/katana/Projects/Flax/CasualGame" -arch=x64 -configuration=Development -platform=Linux -buildTargets=GameEditorTarget -rebuild' Condition="'$(Configuration)|$(Platform)'=='Editor.Linux.Development|x64'"/>
     <Exec Command='"/home/katana/.local/share/SeedLauncher/Versions/1.11/Binaries/Tools/Flax.Build" -log -mutex -workspace="/home/katana/Projects/Flax/CasualGame" -arch=x64 -configuration=Release -platform=Linux -buildTargets=GameEditorTarget -rebuild' Condition="'$(Configuration)|$(Platform)'=='Editor.Linux.Release|x64'"/>
-    <Exec Command='"/home/katana/.local/share/SeedLauncher/Versions/1.11/Binaries/Tools/Flax.Build" -log -mutex -workspace="/home/katana/Projects/Flax/CasualGame" -arch=x64 -configuration=Debug -platform=Linux -buildTargets=GameTarget -rebuild' Condition="'$(Configuration)|$(Platform)'=='Game.Linux.Debug|x64'"/>
-    <Exec Command='"/home/katana/.local/share/SeedLauncher/Versions/1.11/Binaries/Tools/Flax.Build" -log -mutex -workspace="/home/katana/Projects/Flax/CasualGame" -arch=x64 -configuration=Development -platform=Linux -buildTargets=GameTarget -rebuild' Condition="'$(Configuration)|$(Platform)'=='Game.Linux.Development|x64'"/>
-    <Exec Command='"/home/katana/.local/share/SeedLauncher/Versions/1.11/Binaries/Tools/Flax.Build" -log -mutex -workspace="/home/katana/Projects/Flax/CasualGame" -arch=x64 -configuration=Release -platform=Linux -buildTargets=GameTarget -rebuild' Condition="'$(Configuration)|$(Platform)'=='Game.Linux.Release|x64'"/>
   </Target>
+
   <Target Name="Clean">
+    <!-- WINDOWS -->
+    <Exec Command='"C:\Users\Katana\AppData\Local\SeedLauncher\Versions\1.11\Binaries\Tools\Flax.Build.exe" -log -mutex -workspace="C:\Projects\Flax\CasualGame" -arch=x64 -configuration=Debug -platform=Windows -buildTargets=GameEditorTarget -clean' Condition="'$(Configuration)|$(Platform)'=='Editor.Windows.Debug|x64'"/>
+
+    <!-- LINUX -->
     <Exec Command='"/home/katana/.local/share/SeedLauncher/Versions/1.11/Binaries/Tools/Flax.Build" -log -mutex -workspace="/home/katana/Projects/Flax/CasualGame" -arch=x64 -configuration=Debug -platform=Linux -buildTargets=GameEditorTarget -clean' Condition="'$(Configuration)|$(Platform)'=='Editor.Linux.Debug|x64'"/>
     <Exec Command='"/home/katana/.local/share/SeedLauncher/Versions/1.11/Binaries/Tools/Flax.Build" -log -mutex -workspace="/home/katana/Projects/Flax/CasualGame" -arch=x64 -configuration=Development -platform=Linux -buildTargets=GameEditorTarget -clean' Condition="'$(Configuration)|$(Platform)'=='Editor.Linux.Development|x64'"/>
     <Exec Command='"/home/katana/.local/share/SeedLauncher/Versions/1.11/Binaries/Tools/Flax.Build" -log -mutex -workspace="/home/katana/Projects/Flax/CasualGame" -arch=x64 -configuration=Release -platform=Linux -buildTargets=GameEditorTarget -clean' Condition="'$(Configuration)|$(Platform)'=='Editor.Linux.Release|x64'"/>
-    <Exec Command='"/home/katana/.local/share/SeedLauncher/Versions/1.11/Binaries/Tools/Flax.Build" -log -mutex -workspace="/home/katana/Projects/Flax/CasualGame" -arch=x64 -configuration=Debug -platform=Linux -buildTargets=GameTarget -clean' Condition="'$(Configuration)|$(Platform)'=='Game.Linux.Debug|x64'"/>
-    <Exec Command='"/home/katana/.local/share/SeedLauncher/Versions/1.11/Binaries/Tools/Flax.Build" -log -mutex -workspace="/home/katana/Projects/Flax/CasualGame" -arch=x64 -configuration=Development -platform=Linux -buildTargets=GameTarget -clean' Condition="'$(Configuration)|$(Platform)'=='Game.Linux.Development|x64'"/>
-    <Exec Command='"/home/katana/.local/share/SeedLauncher/Versions/1.11/Binaries/Tools/Flax.Build" -log -mutex -workspace="/home/katana/Projects/Flax/CasualGame" -arch=x64 -configuration=Release -platform=Linux -buildTargets=GameTarget -clean' Condition="'$(Configuration)|$(Platform)'=='Game.Linux.Release|x64'"/>
   </Target>
 </Project>

@@ -1,6 +1,6 @@
 ﻿<DockPanelLayout Version="4">
 	<MainWindow>
-		<Bounds X="0" Y="28" Width="1920" Height="1006" IsMaximized="False" IsMinimized="False" />
+		<Bounds X="0" Y="0" Width="1920" Height="1032" IsMaximized="True" IsMinimized="False" />
 	</MainWindow>
 	<MasterPanel SelectedTab="0">
 		<Window Typename="::FlaxEditor.Windows.EditGameWindow">
@@ -25,7 +25,7 @@
 				<Data LogTypeShowMask="15" />
 			</Window>
 		</Panel>
-		<Panel DockState="8" SplitterValue="0.17776252" SelectedTab="0">
+		<Panel DockState="8" SplitterValue="0.19459459" SelectedTab="0">
 			<Window Typename="::FlaxEditor.Windows.SceneTreeWindow" />
 		</Panel>
 	</MasterPanel>

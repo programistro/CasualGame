@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hW9xj3DThHI=",
+  "dgSpecHash": "gYCQ99thk+I=",
   "success": true,
-  "projectFilePath": "/home/katana/Projects/Flax/CasualGame/Source/Game.csproj",
-  "expectedPackageFiles": [
-    "/home/katana/.nuget/packages/microsoft.aspnetcore.app.ref/10.0.0/microsoft.aspnetcore.app.ref.10.0.0.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Projects\\Flax\\CasualGame\\Source\\Game.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }
